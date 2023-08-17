@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvision_industries=self.webpackChunkvision_industries||[]).push([[7362],{1907:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/visionindustriesindia/blog/tags/docusaurus","allTagsPath":"/visionindustriesindia/blog/tags","count":4}')}}]);
