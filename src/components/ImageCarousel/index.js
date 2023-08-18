@@ -2,27 +2,25 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { makeStyles } from "@material-ui/core/styles";
 import { Carousel } from 'react-carousel-minimal';
 import React from 'react';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import "react-multi-carousel/lib/styles.css";
 import Link from '@docusaurus/Link';
 
 const useStyles = makeStyles({
-  captionStyle: {
-    fontSize: '2em',
-    fontWeight: 'bold',
-  },
-  slideNumberStyle: {
-    fontSize: '20px',
-    fontWeight: 'bold',
-  },
   carouselContainer: {
     position: 'relative',
+    overflow: 'hidden',
+
   },
   contentContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
     position: 'absolute',
-    top: '50%',
-    left: '50%',
-    transform: 'translate(-50%, -50%)',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
     textAlign: 'center',
     zIndex: 1,
     color: 'white',
@@ -40,7 +38,7 @@ const useStyles = makeStyles({
     background: 'rgba(0, 0, 0, 0.5)',
     color: 'white',
     border: 'none',
-    borderRadius: '5px',
+    borderRadius: '2px',
     cursor: 'pointer',
     textDecoration: 'none', // Add this to remove underline
   },
@@ -96,7 +94,7 @@ const ImageCarousel = ({ MoviesPath_Description_JSON }) => {
         data={data}
         time={2000}
         width="100vw"
-        height="60vh"
+        height="50vh"
         captionStyle={captionStyle}
         slideNumberStyle={slideNumberStyle}
         captionPosition="bottom"
