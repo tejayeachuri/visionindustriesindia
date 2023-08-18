@@ -1,47 +1,15 @@
 ---
 sidebar_position: 1
+sidebar_label: Home
+hide_title: true
+id: intro
 ---
+**_At Vision Industries India, we take pride in crafting the finest quality agarbattis (incense sticks) that spread an aura of tranquility and spirituality_**
 
-# Tutorial Intro
+### Our Vision
+We envision a world where the subtle fragrance of our agarbattis enriches every corner of life, evoking a sense of peace, harmony, and devotion. We strive to create products that connect people to their inner selves, fostering a sense of oneness with nature and spirituality
 
-Let's discover **Docusaurus in less than 5 minutes**.
+### Our Mission
+We are dedicated to empowering Individual’s through skill development and employment generation opportunities in the agarbatti industry. By fostering an inclusive and supportive work environment, we strive to enable Individuals to thrive, achieve financial independence, and become catalysts for positive change in their families and communities
 
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Together, guided by our vision and driven by our mission, we walk on the path of transformation. At Vision Industries India, our agarbattis are not just fragrances; they are embodiments of purpose, empowerment, and harmony with nature, inspiring a world where every soul finds serenity and unity with the universe

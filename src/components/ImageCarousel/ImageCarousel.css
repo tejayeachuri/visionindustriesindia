@@ -1,0 +1,14 @@
+.custom-carousel {
+  max-height: 50px; /* Set your desired maximum height */
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.custom-carousel.slide img {
+  max-height: 50%; /* Make sure the images fit within the container */
+}
+
+.custom-carousel.carousel-root .thumbs-wrapper {
+  display: none !important;
+}
