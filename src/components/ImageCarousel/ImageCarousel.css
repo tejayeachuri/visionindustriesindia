@@ -1,14 +1,18 @@
-.custom-carousel {
-  max-height: 50px; /* Set your desired maximum height */
-  align-items: center;
-  padding: 2rem 0;
+.carousel-container {
+  position: relative;
   width: 100%;
+  height: 300px; /* Set the desired height */
 }
 
-.custom-carousel.slide img {
-  max-height: 50%; /* Make sure the images fit within the container */
-}
-
-.custom-carousel.carousel-root .thumbs-wrapper {
-  display: none !important;
+.custom-button {
+  position: absolute;
+  top: 20px; /* Adjust the vertical position */
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
