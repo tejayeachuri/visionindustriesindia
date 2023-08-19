@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Vision Industries India Pvt Ltd',
+        title: 'Vision Industries India',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -93,40 +93,42 @@ const config = {
                 label: 'Get Started',
                 to: '/docs/intro',
               },
+              {
+                label: 'About Us',
+                to: '/docs/about',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact Us',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                html:`
+                <p>Mobile +91-9550999549</p>
+                `,
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                html:`
+                <p>Email - Info@visionindustriesindia.com</p>
+                `,
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Products',
+                to: '/docs/products',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Location',
+                href: 'https://goo.gl/maps/k6TFicmhV1c5dMrD8',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Vision Industries India. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -16,6 +16,6 @@ As you indulge in the delightful fragrances of our Agarbattis, know that each st
 
 Together, let us embrace traditions, foster growth, and empower women in the agarbatti industry. Experience the fragrance of change with Vision Industries India
 
-### YNL Soujanya (**_B.H.M.S_**)
+### YNL Soujanya **_B.H.M.S_** [**_MBA-HealthCare_**]
 
 A passionate entrepreneur who has honed her skills and attributes in the field of Medicine and gained expertise on Business management through different entrepreneurial training programs. A self-motivated individual who has completed her bachelors in homeopathy and nurtured herself to understand the enigmas of becoming an entrepreneur. Her entrepreneurship journey started with an affluent thought of providing a platform to uplift the woman from the weaker sections of the society, by supporting them to build their economic standards through gainful employment. A great deal of time and effort has been put in; to evaluate and identify such business, where woman will have the opportunity to develop their skills in the minimal time period and use those skills to increase their revenue. One such business which was identified is of Incense sticks /Agarbatti. After thorough research into the Agarbatti industry, a plan was strategized to implement the setting up of Agarbatti manufacturing Unit as a proprietorship firm led by Dr Soujanya.
