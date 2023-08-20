@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvision_industries=self.webpackChunkvision_industries||[]).push([[700],{5688:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/blog/tags/hola","allTagsPath":"/blog/tags","count":1}')}}]);

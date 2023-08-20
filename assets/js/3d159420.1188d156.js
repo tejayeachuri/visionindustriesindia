@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvision_industries=self.webpackChunkvision_industries||[]).push([[820],{738:s=>{s.exports=JSON.parse('{"permalink":"/visionindustriesindia/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

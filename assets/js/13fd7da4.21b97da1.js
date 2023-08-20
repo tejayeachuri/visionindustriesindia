@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvision_industries=self.webpackChunkvision_industries||[]).push([[432],{1619:i=>{i.exports=JSON.parse('{"label":"hello","permalink":"/visionindustriesindia/blog/tags/hello","allTagsPath":"/visionindustriesindia/blog/tags","count":2}')}}]);
