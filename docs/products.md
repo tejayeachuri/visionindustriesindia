@@ -28,7 +28,3 @@ Explore our exquisite range and experience the harmony of scents and spiritualit
 
 ### Sandal
 * Immerse yourself in the timeless allure of sandalwood, celebrated for its serene and cleansing qualities, cultivating a setting perfect for meditation
-
-### Sacred scents: Leftovers  
-
-### Shakti: Thrichurnam

@@ -23,15 +23,21 @@ const useStyles = makeStyles({
     height: '100%',
     textAlign: 'center',
     zIndex: 1,
-    color: 'white',
+    color: 'green',
   },
   title: {
-    fontSize: '2.5em',
+    fontSize: '5em',
     marginBottom: '10px',
+    fontFamily: 'Yatra-One',
+    fontWeight:'bold',
+    color:'blue'
   },
   subtitle: {
-    fontSize: '1.5em',
+    fontSize: '2.5em',
     marginBottom: '20px',
+    fontFamily: 'Yatra-One',
+    fontWeight:'bold',
+    color:'black'
   },
   customButton: {
     padding: '10px 20px',
@@ -56,9 +62,6 @@ const slideNumberStyle = {
 
 const data = [
   {
-    image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image2.jpeg",
-  },
-  {
     image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image3.jpeg",
 
   },
@@ -82,19 +85,15 @@ const ImageCarousel = ({ MoviesPath_Description_JSON }) => {
   return (
     <div className={classes.carouselContainer}>
       <div className={classes.contentContainer}>
-        <div className={classes.title}>Vision Industries India</div>
-        <div className={classes.subtitle}>Lets Enrich Life Together</div>
-        <Link
-          className={classes.customButton}
-          to="/docs/intro">
-          Explore More
-        </Link>
+        <div className={classes.title}>VARAHI </div>
+        <div className={classes.subtitle}>Lets Enrich Life Together with Premium Agarbatti</div>
+        
       </div>
       <Carousel
         data={data}
-        time={2000}
+        time={5000}
         width="100vw"
-        height="50vh"
+        height="70vh"
         captionStyle={captionStyle}
         slideNumberStyle={slideNumberStyle}
         captionPosition="bottom"

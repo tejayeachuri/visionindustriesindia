@@ -4,6 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    title: 'About Us',
+    Svg: require('@site/static/img/AppLogo.svg').default,
+    description: (
+      <>
+      At Vision Industries India, we are more than just agarbatti manufacturers.
+      We are driven by a profound passion for preserving age-old traditions while embracing modern techniques
+      </>
+    ),
+  },
+  {
     title: 'Vision',
     Svg: require('@site/static/img/AppLogo.svg').default,
     description: (
@@ -20,16 +30,7 @@ const FeatureList = [
       We are dedicated to empowering Indviduals through skill development and employment generation opportunities in the agarbatti industry.
       </>
     ),
-  },
-  {
-    title: 'Roadmap',
-    Svg: require('@site/static/img/AppLogo.svg').default,
-    description: (
-      <>
-      Together, guided by our vision and driven by our mission, we walk on the path of transformation. 
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({Svg, title, description}) {
