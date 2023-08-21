@@ -21,44 +21,43 @@ import Chip from '@mui/material/Chip';
 //const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const cards = {
   name: [{
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image3.jpeg',
-    name: 'Sanathana',
-    textContent: 'NetWgt: 100gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type1.jpg',
+    name: 'TRILOK',
+    textContent: 'Net Content: 100gms',
     to: "/docs/intro"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image5.jpeg',
-    name: 'Siddhi',
-    textContent: 'NetWgt: 200gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type2.jpg',
+    name: 'SANATANA',
+    textContent: 'Net Content: 75gms',
     to: "/docs/intro"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image4.jpeg',
-    name: 'Mystic Aromas',
-    textContent: 'NetWgt: 300gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type3.jpg',
+    name: 'MYSTIC AROMAS',
+    textContent: 'Net Content: 75gms',
     to: "/docs/intro"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image5.jpeg',
-    name: 'Sandal',
-    textContent: 'NetWgt: 400gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type4.jpg',
+    name: 'SIDDHI',
+    textContent: 'Net Content: 75gms',
     to: "/docs/intro"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image6.jpeg',
-    name: 'Black',
-    textContent: 'NetWgt: 500gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type5.jpg',
+    name: 'SHAKTI',
+    textContent: 'Net Content: 35gms',
     to: "/docs/intro"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image3.jpeg',
-    name: 'Enchanting',
-    textContent: 'NetWgt: 600gms ',
+    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type6.jpg',
+    name: 'SERENITY STICKS',
+    textContent: 'Net Content: 15gms',
     to: "/docs/intro"
   },
   ],
 }
-
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
@@ -76,7 +75,6 @@ export default function Album() {
         <Typography variant="h6" align="center" color="text.secondary" paragraph>
           Array of products catering to your every occasion
         </Typography>
-
         <Container sx={{ py: 8 }} maxWidth="md">
           {/* End hero unit */}
           <Grid container spacing={4}>
@@ -94,15 +92,19 @@ export default function Album() {
                     image={card.image}
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h6" component="h2">
+                    <Typography gutterBottom variant="subtitle1">
                       {card.name}
                     </Typography>
-                    <Typography >
+                    <Typography variant="caption" >
                       {card.textContent}
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small">View</Button>
+                    <Button variant="contained"
+                      href="/docs/products"
+                      size="small">
+                      View
+                    </Button>
                   </CardActions>
                 </Card>
               </Grid>

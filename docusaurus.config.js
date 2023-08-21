@@ -109,7 +109,7 @@ const config = {
               },
               {
                 html:`
-                <p>Email - Info@visionindustriesindia.com</p>
+                <p>Email - visionindustries.info@gmail.com</p>
                 `,
               }
             ],
@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'Location',
-                href: 'https://goo.gl/maps/k6TFicmhV1c5dMrD8',
+                href: 'https://goo.gl/maps/dhfPF92YQPfe2t5D6',
               },
             ],
           },
