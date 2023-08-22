@@ -4,6 +4,10 @@ import { Carousel } from 'react-carousel-minimal';
 import React from 'react';
 import "react-multi-carousel/lib/styles.css";
 import Link from '@docusaurus/Link';
+import Typography from '@mui/material/Typography';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import { red, indigo, deepOrange, deepPurple, blue, lightBlue } from '@mui/material/colors';
+
 
 const useStyles = makeStyles({
   carouselContainer: {
@@ -29,15 +33,15 @@ const useStyles = makeStyles({
     fontSize: '5em',
     marginBottom: '10px',
     fontFamily: 'Yatra-One',
-    fontWeight:'bold',
-    color:'blue'
+    fontWeight: 'bold',
+    color: 'blue'
   },
   subtitle: {
     fontSize: '2.5em',
     marginBottom: '20px',
     fontFamily: 'Yatra-One',
-    fontWeight:'bold',
-    color:'black'
+    fontWeight: 'bold',
+    color: 'black'
   },
   customButton: {
     padding: '10px 20px',
@@ -79,32 +83,57 @@ const data = [
   },
 ];
 
+const theme = createTheme({
+  typography: {
+    allVariants: {
+      textTransform: 'none',
+      fontFamily: 'Yatra-One',
+      fontWeight: 'bold',
+    },
+    h2: {
+      color: 'blue'
+    },
+    h4: {
+      color: 'brown'
+    }
+  },
+});
+
+
 const ImageCarousel = ({ MoviesPath_Description_JSON }) => {
   const classes = useStyles();
 
   return (
-    <div className={classes.carouselContainer}>
-      <div className={classes.contentContainer}>
-        <div className={classes.title}>VARAHI </div>
-        <div className={classes.subtitle}>Lets Enrich Life Together with Premium Agarbatti</div>
-        
+    <ThemeProvider theme={theme}>
+
+      <div className={classes.carouselContainer}>
+        <div className={classes.contentContainer}>
+          <Typography gutterBottom
+            variant="h2"
+          >
+            VARAHI
+          </Typography>
+          <Typography gutterBottom variant="h4">
+            Lets Enrich Life Together
+          </Typography>
+        </div>
+        <Carousel
+          data={data}
+          time={5000}
+          width="100vw"
+          height="70vh"
+          captionStyle={captionStyle}
+          slideNumberStyle={slideNumberStyle}
+          captionPosition="bottom"
+          automatic={true}
+          dots={true}
+          pauseIconColor="white"
+          pauseIconSize="40px"
+          slideBackgroundColor="darkgrey"
+          slideImageFit="cover"
+        />
       </div>
-      <Carousel
-        data={data}
-        time={5000}
-        width="100vw"
-        height="70vh"
-        captionStyle={captionStyle}
-        slideNumberStyle={slideNumberStyle}
-        captionPosition="bottom"
-        automatic={true}
-        dots={true}
-        pauseIconColor="white"
-        pauseIconSize="40px"
-        slideBackgroundColor="darkgrey"
-        slideImageFit="cover"
-      />
-    </div>
+    </ThemeProvider>
   );
 }
 
