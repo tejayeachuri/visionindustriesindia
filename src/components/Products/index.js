@@ -24,37 +24,37 @@ const cards = {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type1.jpg',
     name: 'TRILOK',
     textContent: 'Net Content: 100gms',
-    to: "/docs/intro"
+    to: "/docs/products/trilok"
   },
   {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type2.jpg',
     name: 'SANATANA',
     textContent: 'Net Content: 75gms',
-    to: "/docs/intro"
+    to: "/docs/products/sanatana"
   },
   {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type3.jpg',
     name: 'MYSTIC AROMAS',
     textContent: 'Net Content: 75gms',
-    to: "/docs/intro"
+    to: "/docs/products/siddhi"
   },
   {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type4.jpg',
     name: 'SIDDHI',
     textContent: 'Net Content: 75gms',
-    to: "/docs/intro"
+    to: "/docs/products/mystic"
   },
   {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type5.jpg',
     name: 'SHAKTI',
     textContent: 'Net Content: 35gms',
-    to: "/docs/intro"
+    to: "/docs/products/shakti"
   },
   {
     image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type6.jpg',
     name: 'SERENITY STICKS',
     textContent: 'Net Content: 15gms',
-    to: "/docs/intro"
+    to: "/docs/products/serenity"
   },
   ],
 }
@@ -87,7 +87,7 @@ export default function Album() {
                     component="div"
                     sx={{
                       // 16:9
-                      pt: '56.25%',
+                      pt: '70.25%',
                     }}
                     image={card.image}
                   />
@@ -101,7 +101,7 @@ export default function Album() {
                   </CardContent>
                   <CardActions>
                     <Button variant="contained"
-                      href="/docs/products"
+                      href={card.to}
                       size="small">
                       View
                     </Button>

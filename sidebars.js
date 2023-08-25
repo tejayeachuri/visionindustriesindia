@@ -25,9 +25,14 @@ const sidebars = {
       id: 'intro'
     },
     {
-      type: 'doc',
-      label: 'Products',
-      id: 'products'
+      'Featured Products' :[
+        'products/trilok',
+        'products/sanatana',
+        'products/siddhi',
+        'products/mystic',
+        'products/shakti',
+        'products/serenity',
+      ]
     },
     {
       type: 'doc',

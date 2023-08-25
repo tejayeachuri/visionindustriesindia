@@ -8,8 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/AppLogo.svg').default,
     description: (
       <>
-      At Vision Industries India, we are more than just agarbatti manufacturers.
-      We are driven by a profound passion for preserving age-old traditions while embracing modern techniques
+        At Vision Industries India, we are more than just agarbatti manufacturers.
+        We are driven by a profound passion for preserving age-old traditions while embracing modern techniques
       </>
     ),
   },
@@ -18,7 +18,10 @@ const FeatureList = [
     Svg: require('@site/static/img/AppLogo.svg').default,
     description: (
       <>
-      We envision a world where the subtle fragrance of our agarbattis enriches every corner of life, evoking a sense of peace, harmony, and devotion. 
+        Envision a world where the subtle
+        fragrances of our agarbattis enrich every
+        facet of life, invoking feelings of peace,
+        harmony, and devotion
       </>
     ),
   },
@@ -27,13 +30,16 @@ const FeatureList = [
     Svg: require('@site/static/img/AppLogo.svg').default,
     description: (
       <>
-      We are dedicated to empowering Indviduals through skill development and employment generation opportunities in the agarbatti industry.
+        Our dedicated mission is to empower
+        individuals through skill development and the
+        creation of employment opportunities within
+        the agarbatti industry
       </>
     ),
   }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

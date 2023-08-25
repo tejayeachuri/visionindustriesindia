@@ -119,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'Products',
-                to: '/docs/products',
+                to: '/docs/products/trilok',
               },
               {
                 label: 'Location',
