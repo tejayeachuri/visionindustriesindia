@@ -21,37 +21,37 @@ import Chip from '@mui/material/Chip';
 //const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const cards = {
   name: [{
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type1.jpg',
+    image: '/img/trilok.gif',
     name: 'TRILOK',
     textContent: 'Net Content: 100gms',
     to: "/docs/products/trilok"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type2.jpg',
+    image: '/img/sanatana.gif',
     name: 'SANATANA',
     textContent: 'Net Content: 75gms',
     to: "/docs/products/sanatana"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type3.jpg',
+    image: '/img/mystic.gif',
     name: 'MYSTIC AROMAS',
     textContent: 'Net Content: 75gms',
     to: "/docs/products/siddhi"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type4.jpg',
+    image: '/img/siddhi.gif',
     name: 'SIDDHI',
     textContent: 'Net Content: 75gms',
     to: "/docs/products/mystic"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type5.jpg',
+    image: '/img/shakti.gif',
     name: 'SHAKTI',
     textContent: 'Net Content: 35gms',
     to: "/docs/products/shakti"
   },
   {
-    image: 'https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/type6.jpg',
+    image: '/img/serenity.gif',
     name: 'SERENITY STICKS',
     textContent: 'Net Content: 15gms',
     to: "/docs/products/serenity"

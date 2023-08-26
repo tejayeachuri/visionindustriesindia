@@ -94,7 +94,7 @@ const theme = createTheme({
       color: 'blue'
     },
     h4: {
-      color: 'brown'
+      color: 'white'
     }
   },
 });

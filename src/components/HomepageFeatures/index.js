@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Vision',
-    Svg: require('@site/static/img/AppLogo.svg').default,
+    Svg: require('@site/static/img/vision.svg').default,
     description: (
       <>
         Envision a world where the subtle
@@ -27,7 +27,7 @@ const FeatureList = [
   },
   {
     title: 'Mission',
-    Svg: require('@site/static/img/AppLogo.svg').default,
+    Svg: require('@site/static/img/mission.svg').default,
     description: (
       <>
         Our dedicated mission is to empower
