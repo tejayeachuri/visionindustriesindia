@@ -91,7 +91,7 @@ const theme = createTheme({
       fontWeight: 'bold',
     },
     h2: {
-      color: 'blue'
+      color: 'white'
     },
     h4: {
       color: 'white'

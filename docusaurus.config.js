@@ -63,8 +63,17 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      announcementBar: {
+        id: 'support_us',
+        content:
+          'Contact us Email: visionindustries.info@gmail.com and Mobile +91-9550999549 ',
+        backgroundColor: '#5991c7',
+        textColor: '#ffffff',
+        isCloseable: false,
+      },
       navbar: {
         title: 'Vision Industries India',
+        style: 'primary',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -74,12 +83,54 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Get Started',
+            label: 'Home',
           },
           {
-            href: 'https://github.com/tejayeachuri/visionindustriesindia/',
-            label: 'GitHub',
-            position: 'right',
+            label: 'About Us',
+            to: 'docs/about',
+            position: 'left',
+          },
+          {
+            type: 'dropdown',
+            label: 'Products',
+            position: 'left',
+            items: [
+              {
+                type: 'doc',
+                label: 'Trilok',
+                docId: 'products/trilok',
+              },
+              {
+                type: 'doc',
+                label: 'Santana',
+                docId: 'products/trilok',
+              },
+              {
+                type: 'doc',
+                label: 'Mystic Aromas',
+                docId: 'products/trilok',
+              },
+              {
+                type: 'doc',
+                label: 'Siddhi',
+                docId: 'products/trilok',
+              },
+              {
+                type: 'doc',
+                label: 'Shakti',
+                docId: 'products/trilok',
+              },
+              {
+                type: 'doc',
+                label: 'Serenity',
+                docId: 'products/trilok',
+              },
+            ],
+          },
+          {
+            label: 'Contact Us',
+            to: '/docs/contact',
+            position: 'left',
           },
         ],
       },
@@ -103,12 +154,12 @@ const config = {
             title: 'Contact Us',
             items: [
               {
-                html:`
+                html: `
                 <p>Mobile +91-9550999549</p>
                 `,
               },
               {
-                html:`
+                html: `
                 <p>Email - visionindustries.info@gmail.com</p>
                 `,
               }
