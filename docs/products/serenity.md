@@ -4,7 +4,7 @@ sidebar_label: Serenity
 hide_title: true
 ---
 ### Serenity
-![alt-text](/img/type6.jpg)
+![alt-text](/img/serenity.svg)
 
 - Budget-Friendly packs that bring the enchanting world of soothing aromas to your space, without breaking the bank
 

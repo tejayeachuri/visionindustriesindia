@@ -67,8 +67,8 @@ const config = {
         id: 'support_us',
         content:
           'Contact us Email: visionindustries.info@gmail.com and Mobile +91-9550999549 ',
-        backgroundColor: '#5991c7',
-        textColor: '#ffffff',
+        backgroundColor: '#faf8f2',
+        textColor: '#002677',
         isCloseable: false,
       },
       navbar: {

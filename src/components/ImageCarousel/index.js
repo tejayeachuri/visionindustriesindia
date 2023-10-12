@@ -66,20 +66,19 @@ const slideNumberStyle = {
 
 const data = [
   {
-    image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image3.jpeg",
+    image: "/img/vision1.jpg",
 
   },
   {
-    image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image4.jpeg",
+    image: "/img/vision2.jpg",
 
   },
   {
-    image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image5.jpeg",
+    image: "/img/vision3.jpg",
 
   },
   {
-    image: "https://raw.githubusercontent.com/tejayeachuri/visionindustriesindia/main/static/img/Image6.jpeg",
-
+    image: "/img/Image5.jpeg",
   },
 ];
 

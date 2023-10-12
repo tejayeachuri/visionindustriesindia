@@ -5,7 +5,7 @@ hide_title: true
 ---
 ### Trilok
 
-![alt-text](/img/type1.jpg)
+![alt-text](/img/trilok.svg)
 
 - Indulge in a Sensory Expedition: Transform your environment with our unique Triple-Blend Agarbatti collection. Immerse yourself in an enchanting voyage of the senses as the gentle fragrances weave through the air. Meticulously crafted from selection of curated scents, this assortment bestows a dash of refinement and allure upon any space
 

@@ -4,7 +4,7 @@ sidebar_label: Mystic Aromas
 hide_title: true
 ---
 ### Mystic Aromas
-![alt-text](/img/type3.jpg)
+![alt-text](/img/mystic.svg)
 
 - Ideal for enhancing the ambiance during memorable moments, crafting a lavish aura for social get-togethers, or effortlessly imbuing your living area with an essence of royal elegance
 

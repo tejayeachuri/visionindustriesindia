@@ -4,7 +4,7 @@ sidebar_label: Siddhi
 hide_title: true
 ---
 ### Siddhi
-![alt-text](/img/type4.jpg)
+![alt-text](/img/siddhi.svg)
 
 - Immerse yourself in the vibrant blend of nature's strength and spiritual grace with Varahi Siddhi Agarbatti. Elevate your environment and embrace its revitalizing aura, enhancing the energy of your space and invoking celestial harmony
 

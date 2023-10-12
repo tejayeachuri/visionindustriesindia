@@ -4,7 +4,7 @@ sidebar_label: Shakti
 hide_title: true
 ---
 ### Shakti
-![alt-text](/img/type5.jpg)
+![alt-text](/img/shakti.svg)
 
 - Shakti Agarbatti brings a captivating, enduring fragrance to your surroundings. Let its bold scent inspire and boost your confidence. Each whiff ignites the power of Maa Durga, fostering inner determination
 
